@@ -1,2 +1,2 @@
 # getChicken
-let's get Chicken!
+let's eat Chicken!
