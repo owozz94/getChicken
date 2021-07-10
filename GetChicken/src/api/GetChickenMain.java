@@ -4,15 +4,22 @@ import java.util.Scanner;
 
 public class GetChickenMain {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception{
 
 		GetChickenBithumbAPI getChickenBitumbAPI = new GetChickenBithumbAPI();
 
-		String GetTicker = getChickenBitumbAPI.GetTicker("BTC", "KRW");
+		StringBuilder GetTicker = getChickenBitumbAPI.GetTicker("BTC", "KRW");
+		System.out.println(GetTicker);
+		
+		
+		
+	
 		String GetOrderBook = getChickenBitumbAPI.GetOrderBook("BTC", "KRW");
 		String GetTransaction_History = getChickenBitumbAPI.GetTransaction_History("BTC", "KRW");
 		String GetAssets_Status = getChickenBitumbAPI.GetAssets_Status("BTC", "KRW");
 		String GetBTCI = getChickenBitumbAPI.GetBTCI("BTC", "KRW");
+		
+		
 		
 
 	}
