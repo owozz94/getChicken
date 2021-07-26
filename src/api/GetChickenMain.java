@@ -20,9 +20,13 @@ public class GetChickenMain {
 		JSONObject obj = (JSONObject) parser.parse(s); //JSON Object·Î ¸¸µé¾îÁÜ
 		JSONObject data = (JSONObject)obj.get("data");
 		String opening_price = (String)data.get("opening_price");
+
+		JSONArray array = new JSONArray();
+		array.add(opening_price);
+		System.out.println(array);
 		
-		System.out.println(GetTicker);
-		System.out.println(opening_price);
+//		System.out.println(GetTicker);
+//		System.out.println(opening_price);
 
 	}
 }
