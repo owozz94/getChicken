@@ -12,7 +12,7 @@
 + Bithumb api 를 가져와 Json Parsing까지 함.
 + Next- swing 으로 데이터 한개를 갖고와 그래프를 띄울 차례
   - 그러나 현재 Swing은 거의 사용되지 않는다고 해서 Android 구현으로 계획 변경.
-<<<<<<< .merge_file_a12652
+
 + 현재 진행중인 Android Project git 주소
 
   https://github.com/owozz94/android_getChicken.git
