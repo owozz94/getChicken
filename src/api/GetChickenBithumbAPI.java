@@ -39,7 +39,7 @@ class GetChickenBithumbAPI {
 		while ((line = reader.readLine()) != null) {
 			sb.append(line);
 
-		}
+		}reader.close();
 
 		return sb;
 
