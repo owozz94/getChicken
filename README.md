@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project Name : getChicken
 ----------
 ## 개요
@@ -18,13 +17,3 @@
 https://github.com/owozz94/android_getChicken.git
 
 '''
-=======
-# getChicken
-<<<<<<< HEAD
-
-구현 목표 : 가상화폐 자동 투자로 일주일에 한번 치킨값을 벌자!
-=======
-let's eat Chicken!
-목표 : 가상화폐 자동 투자로 일주일에 한번 치킨값을 벌자!
->>>>>>> 4bbf06f6461d775d3d0af3dfdcca632513e9acb7
->>>>>>> JSONArray
